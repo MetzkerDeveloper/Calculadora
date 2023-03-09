@@ -48,13 +48,17 @@
         background-color: #e28103d5;
     }
     #resultado{
-        height: 40px;
-        background-color: #fff;
-        text-align: right;
-        color: #000000;
-        font-size: 35px;
-        justify-content: center;
-        border-radius: 10px;
+      height: 40px;
+      background-color: #fff;
+      text-align: right;
+      color: #000000;
+      font-size: 35px;
+      justify-content: center;
+      border-radius: 10px;
+      max-width: 15ch;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     h2{
         padding: 10px;

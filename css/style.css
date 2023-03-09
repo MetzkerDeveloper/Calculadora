@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+ }
+    .backgorund{
+    background-color: #8addf8;
+       height: 100vh;
+    }
+    .calulator{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #000;
+        color:#fff;
+        padding: 15px;
+        border-radius: 15px;
+       box-shadow: 0px 0px 5px 5px #00000064;
+
+    }
+    .botao{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        border-radius: 100%;
+        background-color: #9f9f9f69;
+        text-align: center;
+        color:#fff;
+        cursor: pointer;
+        font-size: 23px;
+        width: 50px;
+        height: 50px;
+        border: none;
+    }
+    .botao:hover{
+        background-color: #62626288;
+    }
+
+    .btn-igual{
+        background-color: #e27203;
+        border-radius: 20px;
+    }
+    .btn-igual:hover{
+        background-color: #e28103d5;
+    }
+    #resultado{
+        height: 40px;
+        background-color: #fff;
+        text-align: right;
+        color: #000000;
+        font-size: 35px;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    h2{
+        padding: 10px;
+        padding-bottom: 1px;
+        text-align: center;
+    }
+
+    .copy{
+        text-align: center;
+        font-size: 10px;
+    }
+    .copy a{
+        text-decoration: none;
+        color: #fefefeb6;
+    }

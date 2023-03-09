@@ -45,24 +45,29 @@
         border-radius: 20px;
     }
     .btn-igual:hover{
-        background-color: #e28103d5;
+        background-color: #e28103c5;
     }
     #resultado{
-      width:274px;
       height: 40px;
       background-color: #fff;
       text-align: right;
       color: #000000;
-      font-size: 35px;
+      font-size: 30px;
       justify-content: center;
       border-radius: 10px;
-      max-width: 9ch;
+      width: 222px;
       overflow: hidden;
-      text-overflow: ellipsis;
+      text-overflow: clip;
       white-space: nowrap;
     }
+    .material-symbols-outlined{
+    font-variation-settings: 'FILL' 0,'wght' 600,'GRAD' 0,'opsz' 48;
+    text-align: center;
+    margin-top: 5px;
+    font-size:30px;
+    }
     h2{
-        padding: 10px;
+        padding: 9px;
         padding-bottom: 1px;
         text-align: center;
     }
